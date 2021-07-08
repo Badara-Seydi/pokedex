@@ -1,0 +1,63 @@
+<%- include('partials/header') %>
+
+    
+       <h3 class="Details">Details de <%= detailPokemon.nom %></h3>
+        <div class="informations">
+        <img class="img.detail" src="/img/<%= detailPokemon.numero %>.png">
+    
+            <div class="container">
+                <h4>#<%= detailPokemon.numero%> <%= detailPokemon.nom%> </h4>
+                <div class="tags">
+                    <div class="element"> <%= detailPokemon.type %>  </div>
+                    <div class="element">Plante</div>
+                </div>
+              <h5> Statistiques</h5>
+                <div class="statistiques">
+                    <div class="statName">PV</div>
+                    <div class="statNumber"><%= detailPokemon.pv%></div>
+                    <div class="empty">
+                        <div class="full" style="width:<%= (detailPokemon.pv*100)/255%>%"></div>
+                    </div>
+                </div>
+                <div class="statistiques">
+                    <div class="statName">Attaque</div>
+                    <div class="statNumber"><%= detailPokemon.attaque%></div>
+                    <div class="empty">
+                        <div class="full" style="width:<%= (detailPokemon.attaque*100)/255%>%"></div>
+                    </div>
+                </div>
+                <div class="statistiques">
+                    <div class="statName">Défense</div>
+                    <div class="statNumber"><%= detailPokemon.defense%></div>
+                    <div class="empty">
+                        <div class="full" style="width:<%= (detailPokemon.defense*100)/255%>%"></div>
+                    </div>
+                </div>
+                <div class="statistiques">
+                    <div class="statName">Attaque Spé</div>
+                    <div class="statNumber"><%= detailPokemon.attaque_spe%></div>
+                    <div class="empty">
+                        <div class="full" style="width:<%= (detailPokemon.attaque_spe*100)/255%>%"></div>
+                    </div>
+                </div>
+                <div class="statistiques">
+                    <div class="statName">Défense Spé</div>
+                    <div class="statNumber"><%= detailPokemon.defense_spe%></div>
+                    <div class="empty">
+                        <div class="full" style="width:<%= (detailPokemon.defense_spe*100)/255%>%"></div>
+                    </div>
+                </div>
+                <div class="statistiques">
+                    <div class="statName">Vitesse</div>
+                    <div class="statNumber"><%= detailPokemon.vitesse%></div>
+                    <div class="empty">
+                        <div class="full" style="width:<%= (detailPokemon.vitesse*100)/255%>%"></div>
+                    </div>
+                </div>
+
+            </div>
+    
+    </div>
+</div>
+
+<%- include('partials/footer') %>

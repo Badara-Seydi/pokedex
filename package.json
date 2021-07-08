@@ -1,0 +1,26 @@
+{
+  "name": "S04-revisions-pokedex-Badara-Seydi",
+  "version": "1.0.0",
+  "description": "Apprentis professeurs Chen, j'ai une requête pour vous ! Je souhaiterais un pokédex tout beau, tout neuf !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Tardis/S04-revisions-pokedex-Badara-Seydi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Tardis/S04-revisions-pokedex-Badara-Seydi/issues"
+  },
+  "homepage": "https://github.com/O-clock-Tardis/S04-revisions-pokedex-Badara-Seydi#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}

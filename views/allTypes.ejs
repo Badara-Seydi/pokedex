@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+
+<div class="container2">
+    <% for (const type of typePokemon) {%>
+    <a href="/types/<%= type.id%>"><div class="typesOfElem" style="background-color:#<%=type.color%>"><%=type.name%></div></a>
+    
+    <% } %>
+</div>
+<%- include('partials/footer') %>
