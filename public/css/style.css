@@ -1,3 +1,9 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
 body {
     font-family: "Bree Serif", serif;
     background-color: #C04140;
@@ -5,20 +11,131 @@ body {
 }
 
 /* POKEMON LIST */
+
 .pokemon-list a{
     text-decoration: none;
 }
+.tags{
+    display: flex;
+}
+.informations{
+    display: flex;
+}
+.element{
+    border: solid 2px violet;
+    margin-right: 15px;
+}
+.Details{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+.body{
+    height: 100vh;
+    background-color: #C04140;
+}
+
+img.detail{
+    margin-left: 200px;
+}
+
 .pokemon-list figure{
     border-radius: 1.5em;
     background-color: #982D2C;
     color: #F9D2D3;
     text-align: center;
 }
-.pokemon-list img{
-    width:100%;
-}
+
+/* .pokemon-list img{
+    width:60%;
+} */
 .reset-list{
     list-style: none;
     padding: 0;
     margin:0;
+}
+
+.head-main {
+    background-color: bisque;
+    justify-content: space-between;
+    color: #982D2C ;
+    border-radius: 40px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+      
+}
+
+.type {
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+.container {
+    /* display: flex; */
+
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.typesOfElem {
+    font-size: larger;
+    border-radius: 15px;
+    padding : 20px;
+    width: 300px;
+    height: 80px;
+    margin : 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.list {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.statName {
+    width : 30%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.statNumber {
+    width : 15%;
+    font-family: cursive;
+}
+.empty{
+    width : 55%;
+    background-color: #632b2b;
+    border-radius: 5px;
+}
+.statistiques{
+    display: flex;
+    margin : 10px;
+} 
+.body .container {
+    background-color: #982D2C;
+    border-radius: 10px;
+    margin: 5%;
+}
+.full{
+    background-color:limegreen;
+    /* background-color: repeating-linear-gradient(-10deg, red, red 2px, blue 5px, blue 2px); */
+    width : 20%;
+    height : 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input.input{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: larger;
 }
