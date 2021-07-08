@@ -1,0 +1,24 @@
+body {
+    font-family: "Bree Serif", serif;
+    background-color: #C04140;
+    color: white;
+}
+
+/* POKEMON LIST */
+.pokemon-list a{
+    text-decoration: none;
+}
+.pokemon-list figure{
+    border-radius: 1.5em;
+    background-color: #982D2C;
+    color: #F9D2D3;
+    text-align: center;
+}
+.pokemon-list img{
+    width:100%;
+}
+.reset-list{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
