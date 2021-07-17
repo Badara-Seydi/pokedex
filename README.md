@@ -11,4 +11,4 @@ In this project i used Javascript , HTML , CSS . To create the views I used EJS 
 All pokemon fan's need this application . My favourite is Charizard and yours ??
 
 
-###Gotta Catch'em All 
+### Gotta Catch'em All 
